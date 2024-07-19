@@ -1,0 +1,79 @@
+body{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  /* background-color: rgba(147, 155, 153, 0.514); */
+  background-image: url('https://images.unsplash.com/photo-1508960512160-5976980f6692?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2.5rem;
+  font-style: italic;
+  
+}
+#root{
+  display: flex;
+  position: relative;
+  left: 100px;
+  top: 100px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+.stopwatch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  order: 1px solid black;
+  box-shadow: 4px 4px 5px 5px #888888;
+  border-radius: 25px;
+  
+  padding: 40px;
+  height: 300px;
+  
+  
+
+}
+.display{
+  font-size: 5rem;
+  font-family:monospace;
+  font-weight: bold;
+  color:rgb(170, 160, 160);
+  text-shadow: 2px 2px 2px rgb(19, 206, 75);
+  margin-bottom:25px;
+
+}
+.controls button{
+  font-size: 1.5rem;
+  font-weight:bold;
+  color:white;
+  padding:10px 20px ;
+  margin: 5px;
+  min-width:125px;
+  border:none;
+  border-radius:10px;
+  cursor: white;
+  transition: background-color 0.5s ease;
+  
+
+}
+.start-button{
+  background-color:greenyellow;
+}
+.start.button:hover{
+  background-color:rgb(228, 17, 133);
+}
+.stop-button{
+  
+  background-color:rgb(231, 19, 7);
+}
+.stop.button:hover{
+  background-color:rgb(28, 127, 239);
+} 
+.reset-button{
+  background-color:rgba(14, 226, 99, 0.756);
+}
+.reset.button:hover{
+  background-color:rgb(231, 19, 7);
+} 
